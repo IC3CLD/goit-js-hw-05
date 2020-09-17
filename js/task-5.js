@@ -85,41 +85,6 @@ class Car {
         this.isOn ? this.distance += this.speed*hours : ``;
     }
   }
-
-
-//   const car = {
-//     maxSpeed: 200,
-//     price: 45000,
-//     speed: 60,
-//     isOn: true,
-//     distance: 100,
-//   }
-//   Car.getSpecs(car)
-
-//   let {maxSpeed, price, speed, isOn, distance} = car;
-//   console.log(maxSpeed, price, speed, isOn, distance);
-/////////////////////////////////////////////////////////////////////
-
-// let user = {
-//     name: `Mango`,
-//     age: 120,
-//     email: `aa@gsgsgdg.mail`,
-//     isAdmin: false,
-//     address:{
-//         street: `Almazova`,
-//         city:`Kyiv`,
-//         home:2
-//     },
-//     hobbies: [`football`, `beer`, `TV`],
-// }
-
-// let {email, age, address:{city}, address:{home},hobbies:[football,beer, TV]} = user;
-// console.log(city);
-// console.log(beer);
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-
-
   
   const mustang = new Car({ maxSpeed: 200, price: 2000 });
   
